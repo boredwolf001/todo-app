@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  background: #131313;
+  color: #fff;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.todos {
+  width: 400px;
+}
+
+.todo {
+  background-color: #2e2e2e;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.todo.done {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+
+.fa-trash {
+  cursor: pointer;
+  background: firebrick;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  color: #fff;
+  border-bottom: 1px solid #999;
+  outline: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  background: rgb(75, 206, 52);
+  border: none;
+  font-weight: bold;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
